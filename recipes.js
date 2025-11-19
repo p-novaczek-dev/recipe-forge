@@ -8,7 +8,7 @@ const recipes = [
                 "ingredients": [
                     "150 g Weizenmehl (Type 550)",
                     "150 g Wasser (kalt)",
-                    "0,5 g Frischhefe"
+                    "0.5 g Frischhefe"
                 ]
             },
             {
@@ -131,7 +131,7 @@ const recipes = [
                     "2 TL Zucker",
                     "1 EL Kokosfett",
                     "2 EL Wasser",
-                    "1/4 TL Salz",
+                    "0.25 TL Salz",
                     "1 g Vanilleextrakt",
                     "etwas Zimt (optional)",
                     "4 TL Kakaopulver (optional)"
