@@ -6,20 +6,19 @@ const recipes = [
             {
                 "name": "Poolish",
                 "ingredients": [
-                    "150 g Weizenmehl (Type 550)",
-                    "150 g Wasser (kalt)",
+                    "150 g Weizenmehl",
+                    "150 g Wasser",
                     "0.5 g Frischhefe"
                 ]
             },
             {
                 "name": "Hauptteig",
                 "ingredients": [
-                    "350 g Weizenmehl (Type 550)",
-                    "50 g Roggenmehl (Type 1150)",
-                    "230 g Wasser (lauwarm, 30 °C)",
+                    "350 g Weizenmehl",
+                    "50 g Roggenmehl",
+                    "230 g Wasser (lauwarm)",
                     "10 g Frischhefe",
                     "10 g Salz",
-                    "5 g Malzmehl (optional)",
                     "10 g Butter"
                 ]
             },
@@ -145,52 +144,6 @@ const recipes = [
             "Komplett auskühlen lassen, bevor es verpackt wird."
         ]
     }, {
-        "name": "Früchtetarte",
-        "description": "Eine klassische Früchtetarte mit süßem Mürbeteig, cremiger Vanillecreme und frischen Früchten.",
-        "parts": [
-            {
-                "name": "Pâte Sucrée (Mürbeteig)",
-                "ingredients": [
-                    "150g Mehl",
-                    "75g kalte Butter, gewürfelt",
-                    "50g Zucker",
-                    "1 großes Eigelb",
-                    "15g kaltes Wasser",
-                    "Prise Salz"
-                ]
-            },
-            {
-                "name": "Crème Pâtissière (Vanillecreme)",
-                "ingredients": [
-                    "500g Vollmilch",
-                    "4 große Eigelb",
-                    "100g Zucker",
-                    "40g Speisestärke",
-                    "5g Vanilleextrakt",
-                    "25g Butter"
-                ]
-            },
-            {
-                "name": "Belag",
-                "ingredients": [
-                    "300g Beeren/Früchte",
-                    "50g Aprikosenmarmelade (optional)"
-                ]
-            }
-        ],
-        "steps": [
-            "Mehl, Zucker und Salz mischen. Kalte Butter einarbeiten, bis krümelig. Eigelb und Wasser hinzufügen, bis ein Teig entsteht.",
-            "Teig zu einer Scheibe formen, einwickeln und 30 Minuten kühlen.",
-            "Ofen auf 190°C vorheizen. Teig 3 mm dick ausrollen, in eine 23-cm-Tarteform legen, überschüssigen Teig abschneiden.",
-            "Teigboden mit einer Gabel einstechen, mit Backpapier und Backgewichten belegen, 15 Minuten backen. Gewichte entfernen, 10 Minuten weiterbacken, bis goldbraun. Abkühlen lassen.",
-            "Milch in einem Topf leicht köcheln lassen. Eigelb, Zucker und Speisestärke glatt rühren. Heiße Milch langsam einrühren.",
-            "Mischung zurück in den Topf geben, bei mittlerer Hitze unter Rühren 2-3 Minuten kochen, bis sie dick ist. Vanilleextrakt und Butter einrühren.",
-            "Creme in eine Schüssel füllen, mit Folie abdecken (direkt auf der Oberfläche) und kühlen.",
-            "Gekühlte Creme gleichmäßig in den abgekühlten Tarteboden streichen.",
-            "Früchte nach Wahl darauf anrichten. Optional: Mit erwärmter Aprikosenmarmelade bestreichen.",
-            "Tarte 30 Minuten kühlen vor dem Servieren."
-        ]
-    }, {
         "name": "Pavlova",
         "description": "Luftige Meringue mit Schlagsahne und frischen roten Johannisbeeren, mit reduziertem Zuckergehalt für eine leichtere Süße.",
         "parts": [
@@ -270,7 +223,7 @@ const recipes = [
                 "name": "Spinatnudeln",
                 "ingredients": [
                     "100 g frischer Spinat",
-                    "500 g Weizenmehl (Type 550 oder 00)",
+                    "500 g Weizenmehl",
                     "4 Eier",
                     "1 g Salz"
                 ]
@@ -280,10 +233,10 @@ const recipes = [
                 "ingredients": [
                     "500 g Schweinehackfleisch",
                     "500 g Rinderhackfleisch",
-                    "100 g Pancetta (fein gehackt)",
-                    "1 Zwiebel (gehackt)",
-                    "2 Stangen Sellerie (gehackt)",
-                    "3 Karotten (gehackt)",
+                    "100 g Pancetta",
+                    "1 Zwiebel",
+                    "2 Stangen Sellerie",
+                    "3 Karotten",
                     "700 g Passata",
                     "100 g Tomatenmark",
                     "400 g geschälte Tomaten",
@@ -305,7 +258,7 @@ const recipes = [
             {
                 "name": "Topping",
                 "ingredients": [
-                    "Parmigiano Reggiano (gerieben)"
+                    "Parmigiano Reggiano"
                 ]
             }
         ],
@@ -319,42 +272,6 @@ const recipes = [
             "Für Béchamelsoße: Butter schmelzen, Mehl einrühren und kurz anschwitzen. Milch langsam unter Rühren zugießen, aufkochen, bis sie eindickt. Mit Muskatnuss würzen.",
             "Auflaufform leicht ölen, mit Béchamelsoße beginnen, dann abwechselnd Nudelplatten, Ragù, Béchamelsoße und Parmigiano Reggiano schichten. Mit Käse abschließen.",
             "Bei 180 °C 30-35 Minuten backen, bis die Oberfläche goldbraun ist. Vor dem Servieren 10 Minuten ruhen lassen."
-        ]
-    }, {
-        "name": "Zitronen-Kokos-Energiebällchen",
-        "description": "Ein schneller, gesunder Snack mit frischem Zitronenaroma und cremiger Kokosnote, ideal für unterwegs oder als süßer Energieschub.",
-        "parts": [
-            {
-                "name": "Energiebällchen",
-                "ingredients": [
-                    "150 g Mandeln (gemahlen)",
-                    "100 g Datteln (entkernt)",
-                    "50 g Kokosflocken",
-                    "30 g Kokosöl",
-                    "1 Zitrone (Saft und abgeriebene Schale)",
-                    "20 g Honig",
-                    "Prise Salz"
-                ]
-            },
-            {
-                "name": "Beschichtung",
-                "ingredients": [
-                    "30 g Kokosflocken"
-                ]
-            }
-        ],
-        "steps": [
-            "Datteln in warmem Wasser 10 Minuten einweichen, dann abtropfen.",
-            "Mandeln, Datteln, Kokosflocken, Kokosöl, Zitronensaft, Zitronenschale, Honig und Salz in einem Mixer zu einer klebrigen Masse verarbeiten.",
-            "Masse zu kleinen Kugeln (ca. 2 cm Durchmesser) formen.",
-            "Kugeln in Kokosflocken wälzen, bis sie gleichmäßig bedeckt sind.",
-            "Energiebällchen mindestens 30 Minuten im Kühlschrank fest werden lassen.",
-            "Kühl lagern und innerhalb einer Woche genießen."
-        ],
-        "variations": [
-            "- Zitronenschale durch Orangenschale ersetzen.",
-            "- Mandeln durch Cashews für milderen Geschmack tauschen.",
-            "- Mit Kakaopulver bestäuben für Schokoladennote."
         ]
     }, {
         "name": "Ramen-Nudeln",
