@@ -1,4 +1,5 @@
 let currentScale = 1;
+let currentIndex = -1;
 
 function scaleIngredient(ing, scale) {
   const match = ing.match(/^(\d+(?:\.\d+)?)\s*(.*)$/);
@@ -10,14 +11,17 @@ function scaleIngredient(ing, scale) {
 }
 
 function renderRecipeList(filteredRecipes) {
-  currentFilteredRecipes = filteredRecipes;
   const list = $('#recipeList').empty();
   filteredRecipes
     .sort((a, b) => a.name.localeCompare(b.name))
-    .forEach((recipe, index) => {
-      const li = $('<li>').text(recipe.name).data('index', index);
+    .forEach((recipe) => {
+      const originalIndex = recipes.indexOf(recipe);
+      const li = $('<li>').text(recipe.name).data('original-index', originalIndex);
       list.append(li);
     });
+  if (currentIndex >= 0) {
+    $(`.recipe-list li[data-original-index="${currentIndex}"]`).addClass('active');
+  }
 }
 
 function displayRecipe(recipe) {
@@ -56,6 +60,20 @@ function displayRecipe(recipe) {
   container.append(stepsUl);
 }
 
+function showRecipeByIndex(index) {
+  index = parseInt(index, 10);
+  if (isNaN(index) || index < 0 || index >= recipes.length) {
+    $('#recipeContent').empty();
+    $('.recipe-list li').removeClass('active');
+    currentIndex = -1;
+    return;
+  }
+  currentIndex = index;
+  displayRecipe(recipes[index]);
+  $('.recipe-list li').removeClass('active');
+  $(`.recipe-list li[data-original-index="${index}"]`).addClass('active');
+}
+
 function searchRecipes(query) {
   query = query.toLowerCase();
   return recipes.filter(recipe => {
@@ -64,12 +82,12 @@ function searchRecipes(query) {
 }
 
 $(document).ready(function () {
-  currentFilteredRecipes = recipes;
   renderRecipeList(recipes);
 
   $('#recipeList').on('click', 'li', function () {
-    const index = $(this).data('index');
-    displayRecipe(currentFilteredRecipes[index]);
+    const originalIndex = $(this).data('original-index');
+    showRecipeByIndex(originalIndex);
+    window.location.hash = originalIndex;
   });
 
   $('#search').on('input', function () {
@@ -77,4 +95,15 @@ $(document).ready(function () {
     const filtered = searchRecipes(query);
     renderRecipeList(filtered);
   });
+
+  $(window).on('hashchange', function() {
+    const hash = window.location.hash.slice(1);
+    const index = parseInt(hash, 10);
+    showRecipeByIndex(index);
+  });
+
+  // Initial hash check
+  const initialHash = window.location.hash.slice(1);
+  const initialIndex = parseInt(initialHash, 10);
+  showRecipeByIndex(initialIndex);
 });
