@@ -716,5 +716,34 @@ const recipes = [
             "Eine beschichtete Pfanne bei mittlerer Hitze leicht mit Butter oder Olivenöl einfetten.",
             "Je 60g Teig pro Pfannkuchen in die Pfanne geben. Backen, bis Blasen an der Oberfläche erscheinen und die Ränder fest sind (ca. 2-3 Minuten). Wenden und 1-2 Minuten weiterbacken, bis sie goldbraun sind."
         ]
+    }, {
+        "name": "Oreo-Style Schoko-Waffeln",
+        "description": "Dünne, knusprige, intensiv schokoladige Waffeln wie Oreo.",
+        "parts": [
+            {
+                "name": "Teig",
+                "ingredients": [
+                    "125 g Weizenmehl",
+                    "50 g ungesüßtes Kakaopulver",
+                    "0.5 TL Natron",
+                    "0.25 TL Salz",
+                    "110 g weiche Butter Butter",
+                    "110 g Zucker",
+                    "1 großes Ei",
+                    "1 TL Vanilleextrakt (optional)"
+                ]
+            }
+        ],
+        "steps": [
+            "Backofen auf 175 °C Ober-/Unterhitze vorheizen. Zwei Bleche mit Backpapier belegen.",
+            "Mehl, Kakao, Natron und Salz in einer Schüssel vermischen.",
+            "Butter und Zucker 1–2 Min. cremig rühren (Handmixer oder kräftig von Hand).",
+            "Ei und Vanille unterrühren.",
+            "Trockene Zutaten auf einmal dazugeben und nur so lange rühren, bis ein weicher, fast brownieartiger Teig entsteht.",
+            "Mit einem Teelöffel kleine Portionen abstechen, zu Kugeln rollen und mit 5 cm Abstand aufs Blech setzen.",
+            "Jede Kugel leicht flach drücken (ca. 2–3 mm dick – je dünner, desto knuspriger).",
+            "8–10 Min. backen. Die Kekse wirken noch weich – das ist richtig. Sie werden beim Abkühlen hart und knusprig.",
+            "2 Min. auf dem Blech abkühlen lassen, dann komplett auf einem Gitter oder der Arbeitsplatte auskühlen lassen."
+        ]
     }
 ];
