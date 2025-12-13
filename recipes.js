@@ -6,26 +6,21 @@ const recipes = [
             {
                 "name": "Poolish",
                 "ingredients": [
-                    "150 g Weizenmehl",
-                    "150 g Wasser",
-                    "0.5 g Frischhefe"
+                    "100 g Weizenmehl",
+                    "100 g Wasser",
+                    "0.15 g Frischhefe"
                 ]
             },
             {
                 "name": "Hauptteig",
                 "ingredients": [
-                    "350 g Weizenmehl",
-                    "50 g Roggenmehl",
-                    "230 g Wasser (lauwarm)",
-                    "10 g Frischhefe",
-                    "10 g Salz",
-                    "10 g Butter"
-                ]
-            },
-            {
-                "name": "Bestreuen (optional)",
-                "ingredients": [
-                    "Kümmel, Mohn oder Sesam"
+                    "150 g Weizenmehl",
+                    "25 g Roggenmehl",
+                    "90 g Wasser (lauwarm)",
+                    "7.5 g Frischhefe",
+                    "6 g Salz",
+                    "5 g Butter",
+                    "2 g Kümmel"
                 ]
             }
         ],
