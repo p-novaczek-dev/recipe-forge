@@ -740,5 +740,58 @@ const recipes = [
             "8–10 Min. backen. Die Kekse wirken noch weich – das ist richtig. Sie werden beim Abkühlen hart und knusprig.",
             "2 Min. auf dem Blech abkühlen lassen, dann komplett auf einem Gitter oder der Arbeitsplatte auskühlen lassen."
         ]
+    },{
+"name": "Malakoff-Schnitte",
+"description": "Klassische österreichische Malakoff-Schnitte mit Biskotten, Vanille-Buttercreme und gerösteten Mandeln – cremig, leicht und alkoholaromatisiert.",
+"parts": [
+{
+"name": "Zutaten",
+"ingredients": [
+"12 Biskotten",
+"2 EL Rum",
+"6 EL Milch (zum Tränken)",
+"250 g Milch",
+"0.5 Pck. Vanillepuddingpulver",
+"50 g Zucker",
+"125 g weiche Butter",
+"50 g geröstete Mandelblättchen"
+]
+}
+],
+"steps": [
+"Puddingpulver mit etwas Milch glatt anrühren. Restliche Milch mit der Hälfte des Zuckers aufkochen, angerührtes Pulver einrühren und 1 Min. köcheln lassen. Pudding abkühlen lassen.",
+"Weiche Butter mit restlichem Zucker cremig aufschlagen. Abgekühlten Pudding portionsweise unterrühren, bis eine glatte Creme entsteht.",
+"Biskotten kurz in Rum-Milch-Mischung tauchen (nicht zu weich werden lassen). Eine Form mit einer Lage Biskotten auslegen, Creme darauf streichen. Abwechselnd schichten, mit Creme abschließen.",
+"Oberfläche mit gerösteten Mandelblättchen bestreuen.",
+"Mindestens 4 Stunden (am besten über Nacht) im Kühlschrank durchziehen lassen."
+]
+},{
+  "name": "Japanisches Curry (Kare Raisu)",
+  "description": "Mildes, aromatisches japanisches Curry mit Hähnchen oder Rind, Gemüse und geriebenem Apfel für leichte Süße. Klassisch serviert mit Reis.",
+  "parts": [
+    {
+      "name": "Zutaten",
+      "ingredients": [
+        "500 g Hähnchen (oder Rindfleisch), in mundgerechte Stücke geschnitten",
+        "2 Karotten, geschält und in grobe Stücke geschnitten",
+        "3 mittelgroße Kartoffeln, geschält und in grobe Stücke geschnitten",
+        "1 große Zwiebel, grob gehackt",
+        "1 Apfel (säuerlich-süß), geschält und fein gerieben",
+        "2 EL Olivenöl oder Avocadoöl",
+        "1 l Wasser",
+        "100 g japanisches Curry-Roux",
+        "Gekochter Reis zum Servieren"
+      ]
     }
+  ],
+  "steps": [
+    "Olivenöl in einem großen Topf bei mittlerer Hitze erhitzen. Zwiebeln hineingeben und ca. 5 Min. glasig dünsten.",
+    "Fleisch hinzufügen und ca. 5 Min. anbraten, bis es Farbe annimmt.",
+    "Karotten, Kartoffeln und geriebenen Apfel zugeben. Alles 2 Min. unter Rühren mitbraten.",
+    "Wasser angießen, zum Kochen bringen, Hitze reduzieren, zudecken und 15–20 Min. köcheln lassen, bis Gemüse und Apfel weich sind.",
+    "Hitze ausschalten, Curry-Roux in Stücken oder Würfeln hinzufügen und gut umrühren, bis es sich vollständig auflöst.",
+    "Nochmals 5 Min. bei niedriger Hitze köcheln lassen und gelegentlich umrühren, bis die Sauce sämig ist.",
+    "Mit gekochtem Reis servieren."
+  ]
+}
 ];
