@@ -793,5 +793,130 @@ const recipes = [
     "Nochmals 5 Min. bei niedriger Hitze köcheln lassen und gelegentlich umrühren, bis die Sauce sämig ist.",
     "Mit gekochtem Reis servieren."
   ]
+},{
+  "name": "Hefezopf",
+  "description": "Klassischer luftiger, süßer deutscher Hefezopf mit Vanille und Zitronenaroma. Perfekt zum Frühstück oder Kaffee.",
+  "parts": [
+    {
+      "name": "Teig",
+      "ingredients": [
+        "500 g Weizenmehl",
+        "250 g Milch (zimmerwarm)",
+        "20 g frische Hefe",
+        "70 g Zucker",
+        "1 EL Vanillezucker",
+        "4 g Salz",
+        "1 Eigelb",
+        "70 g weiche Butter",
+        "Abrieb von 1 Bio-Zitrone"
+      ]
+    },
+    {
+      "name": "Zum Bestreichen",
+      "ingredients": [
+        "1 Ei",
+        "etwas Milch"
+      ]
+    }
+  ],
+  "steps": [
+    "Hefe mit Milch und Zucker verrühren, bis sie sich auflöst.",
+    "Mit Mehl, Salz, Vanillezucker, Eigelb, Butter und Zitronenabrieb zu einem glatten Teig verkneten (ca. 10 Min.).",
+    "Teig in einer luftdichten Schüssel abdecken und 1 Stunde an einem warmen Ort gehen lassen, bis sich das Volumen verdoppelt hat.",
+    "Teig in 3 gleich große Stränge teilen, diese locker vorformen und 15 Min. ruhen lassen.",
+    "Stränge zu einem Zopf flechten und auf ein mit Backpapier belegtes Blech legen. Nochmals 15 Min. gehen lassen.",
+    "Ofen auf 200 °C Ober-/Unterhitze vorheizen. Zopf mit verquirltem Ei-Milch-Gemisch bestreichen.",
+    "15 Min. bei 200 °C backen, dann Temperatur auf 180 °C reduzieren und weitere 15 Min. goldbraun backen."
+  ]
+},{
+  "name": "Zimtschnecken",
+  "description": "Weiche, fluffige Zimtschnecken mit brauner Zucker-Zimt-Füllung und Frischkäse-Frosting. Ergibt 6 Stück.",
+  "parts": [
+    {
+      "name": "Teig",
+      "ingredients": [
+        "60 g lauwarme Milch",
+        "1.5 TL frische Hefe",
+        "25 g Zucker",
+        "1 großes Ei (zimmerwarm)",
+        "42 g weiche Butter",
+        "0.5 TL Salz",
+        "156–188 g Weizenmehl (beginne mit 156 g)"
+      ]
+    },
+    {
+      "name": "Füllung",
+      "ingredients": [
+        "21 g weiche Butter",
+        "66 g brauner Zucker",
+        "2 TL Zimt"
+      ]
+    },
+    {
+      "name": "Frosting",
+      "ingredients": [
+        "28 g weiche Butter",
+        "28 g Frischkäse (zimmerwarm)",
+        "60 g Puderzucker",
+        "0.5 TL Vanilleextrakt"
+      ]
+    }
+  ],
+  "steps": [
+    "Milch, Hefe und eine Prise Zucker in einer kleinen Schüssel verrühren. 5–10 Min. gehen lassen, bis es schäumt.",
+    "Hefemischung, restlichen Zucker, Ei, Butter, Salz und 156 g Mehl in eine Schüssel geben. Zu einem weichen Teig verkneten. Auf leicht bemehlter Fläche 5–7 Min. glatt kneten (bei Bedarf esslöffelweise Mehl zugeben).",
+    "Teig in eine leicht geölte Schüssel legen, abdecken und an einem warmen Ort 60–90 Min. gehen lassen, bis sich das Volumen verdoppelt hat.",
+    "Teig zu einem 20 × 30 cm Rechteck ausrollen. Butter gleichmäßig darauf verstreichen. Braunen Zucker mit Zimt mischen und großzügig darüber streuen.",
+    "Von der langen Seite fest aufrollen. In 6 gleich große Stücke (ca. 5 cm) schneiden.",
+    "Stücke mit der Schnittfläche nach oben in eine gefettete 20 × 20 cm Form setzen (mit etwas Abstand). Abdecken und 30–45 Min. gehen lassen, bis sie aufgegangen sind.",
+    "Ofen auf 175 °C Ober-/Unterhitze vorheizen. 18–22 Min. backen, bis sie goldbraun sind.",
+    "Für das Frosting alle Zutaten glatt verrühren. Noch warme Schnecken damit bestreichen."
+  ]
+},{
+  "name": "Dunkle Schokoladen-Rum-Trüffel",
+  "description": "Cremige, intensive Rum-Trüffel aus dunkler Schokolade, gewälzt in Kokosraspeln. Einfach und edel.",
+  "parts": [
+    {
+      "name": "Zutaten",
+      "ingredients": [
+        "200 g dunkle Schokolade",
+        "100 ml Sahne",
+        "30 ml Rum",
+        "Kokosraspel (zum Wälzen)"
+      ]
+    }
+  ],
+  "steps": [
+    "Schokolade grob hacken und in eine hitzebeständige Schüssel geben.",
+    "Sahne in einem kleinen Topf bis kurz vor dem Kochen erhitzen (nicht aufkochen).",
+    "Heiße Sahne über die Schokolade gießen und glatt rühren.",
+    "Rum einrühren. Abdecken und 2–3 Stunden im Kühlschrank fest werden lassen.",
+    "Mit kaltem Löffel oder Händen kleine Portionen (ca. 1 TL) abstechen und schnell zu Kugeln rollen.",
+    "Trüffel in Kokosraspeln wälzen.",
+    "In einem luftdichten Behälter im Kühlschrank aufbewahren."
+  ]
+},{
+  "name": "Shio Tare für Ramen-Brühe",
+  "description": "Salzige, aromatische Shio-Tare (Salzsoße) als Würze für Ramen-Brühe. Hält sich gekühlt bis zu 2 Wochen.",
+  "parts": [
+    {
+      "name": "Zutaten",
+      "ingredients": [
+        "50 g Salz",
+        "120 ml Sake",
+        "60 ml Mirin",
+        "2 EL Sojasauce",
+        "240 ml Dashi"
+      ]
+    }
+  ],
+  "steps": [
+    "Sake und Mirin in einem kleinen Topf bei mittlerer Hitze zum Köcheln bringen und 2 Min. köcheln lassen, damit der Alkohol verdampft.",
+    "Dashi hinzufügen und verrühren. Hitze reduzieren.",
+    "Salz nach und nach unter Rühren vollständig auflösen.",
+    "Sojasauce einrühren und 1 Min. köcheln lassen.",
+    "Vom Herd nehmen und durch ein feines Sieb abseihen.",
+    "Auf Raumtemperatur abkühlen lassen. In einem luftdichten Behälter im Kühlschrank bis zu 2 Wochen aufbewahren."
+  ]
 }
 ];
