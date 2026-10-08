@@ -808,7 +808,7 @@ const recipes = [
         "4 g Salz",
         "1 Eigelb",
         "70 g weiche Butter",
-        "Abrieb von 1 Bio-Zitrone"
+        "1 Zitrone (Schale)"
       ]
     },
     {
@@ -836,7 +836,7 @@ const recipes = [
       "name": "Teig",
       "ingredients": [
         "60 g lauwarme Milch",
-        "1.5 TL frische Hefe",
+        "10 g frische Hefe",
         "25 g Zucker",
         "1 großes Ei (zimmerwarm)",
         "42 g weiche Butter",
