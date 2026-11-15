@@ -102,7 +102,7 @@ const recipes = [
                     "200 g brauner Zucker",
                     "8 g Vanillezucker",
                     "375 g Weizenmehl",
-                    "1 g Salz"
+                    "0.25 TL Salz"
                 ]
             }
         ],
@@ -220,7 +220,7 @@ const recipes = [
                     "100 g frischer Spinat",
                     "500 g Weizenmehl",
                     "4 Eier",
-                    "1 g Salz"
+                    "0.25 TL Salz"
                 ]
             },
             {
@@ -373,7 +373,7 @@ const recipes = [
                     "1 Ei",
                     "100 g Mehl",
                     "230 g Milch",
-                    "1 g Salz"
+                    "0.125 TL Salz"
                 ]
             }
         ],
@@ -393,7 +393,7 @@ const recipes = [
                     "2 Eier",
                     "80 g Mehl",
                     "125 g Milch",
-                    "1 g Salz"
+                    "0.25 TL Salz"
                 ]
             }
         ],
@@ -414,7 +414,7 @@ const recipes = [
                     "30 g Butter",
                     "1 Ei",
                     "10 g Zucker",
-                    "1 g Salz",
+                    "0.125 TL Salz",
                     "5 g Vanilleextrakt",
                     "20 g Mehl",
                     "10 g Kakaopulver (ungesüßt)"
@@ -444,7 +444,7 @@ const recipes = [
                     "4 Eier",
                     "1 Packung Vanillezucker",
                     "1 Packung Backpulver",
-                    "1 g Zimt",
+                    "etwas Zimt",
                     "1 Zitrone, Schale"
                 ]
             }, {
@@ -475,7 +475,7 @@ const recipes = [
                     "70 g Zucker",
                     "3 Eier",
                     "5 g Vanilleextrakt",
-                    "1 g Salz"
+                    "0.125 TL Salz"
                 ]
             }
         ],
@@ -498,7 +498,7 @@ const recipes = [
                     "1 Ei",
                     "125 g Mehl",
                     "25 g Grieß",
-                    "1 g Salz"
+                    "0.125 TL Salz"
                 ]
             },
             {
@@ -508,7 +508,7 @@ const recipes = [
                     "80 g Butter",
                     "150 g Semmelbrösel",
                     "2 EL Zucker",
-                    "1 g Zimt (optional)"
+                    "etwas Zimt (optional)"
                 ]
             }
         ],
@@ -540,7 +540,7 @@ const recipes = [
                 "ingredients": [
                     "5 Äpfel",
                     "5 g Vanilleextrakt",
-                    "1 g Zimt",
+                    "etwas Zimt",
                     "1 g Zucker",
                     "1 Zitrone (Saft)"
                 ]
@@ -593,7 +593,7 @@ const recipes = [
                     "1 g Zitronenschale",
                     "3 Eigelb",
                     "3 Eiweiß",
-                    "1 g Salz",
+                    "0.25 TL Salz",
                     "60 g Zucker",
                     "140 g Mehl",
                     "4 g Backpulver",
@@ -712,35 +712,6 @@ const recipes = [
             "Je 60g Teig pro Pfannkuchen in die Pfanne geben. Backen, bis Blasen an der Oberfläche erscheinen und die Ränder fest sind (ca. 2-3 Minuten). Wenden und 1-2 Minuten weiterbacken, bis sie goldbraun sind."
         ]
     }, {
-        "name": "Oreo-Style Schoko-Waffeln",
-        "description": "Dünne, knusprige, intensiv schokoladige Waffeln wie Oreo.",
-        "parts": [
-            {
-                "name": "Teig",
-                "ingredients": [
-                    "125 g Weizenmehl",
-                    "50 g ungesüßtes Kakaopulver",
-                    "0.5 TL Natron",
-                    "0.25 TL Salz",
-                    "110 g weiche Butter Butter",
-                    "110 g Zucker",
-                    "1 großes Ei",
-                    "1 TL Vanilleextrakt (optional)"
-                ]
-            }
-        ],
-        "steps": [
-            "Backofen auf 175 °C Ober-/Unterhitze vorheizen. Zwei Bleche mit Backpapier belegen.",
-            "Mehl, Kakao, Natron und Salz in einer Schüssel vermischen.",
-            "Butter und Zucker 1–2 Min. cremig rühren (Handmixer oder kräftig von Hand).",
-            "Ei und Vanille unterrühren.",
-            "Trockene Zutaten auf einmal dazugeben und nur so lange rühren, bis ein weicher, fast brownieartiger Teig entsteht.",
-            "Mit einem Teelöffel kleine Portionen abstechen, zu Kugeln rollen und mit 5 cm Abstand aufs Blech setzen.",
-            "Jede Kugel leicht flach drücken (ca. 2–3 mm dick – je dünner, desto knuspriger).",
-            "8–10 Min. backen. Die Kekse wirken noch weich – das ist richtig. Sie werden beim Abkühlen hart und knusprig.",
-            "2 Min. auf dem Blech abkühlen lassen, dann komplett auf einem Gitter oder der Arbeitsplatte auskühlen lassen."
-        ]
-    },{
 "name": "Malakoff-Schnitte",
 "description": "Klassische österreichische Malakoff-Schnitte mit Biskotten, Vanille-Buttercreme und gerösteten Mandeln – cremig, leicht und alkoholaromatisiert.",
 "parts": [

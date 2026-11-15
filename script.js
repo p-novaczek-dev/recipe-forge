@@ -83,6 +83,7 @@ function searchRecipes(query) {
 
 $(document).ready(function () {
   renderRecipeList(recipes);
+  $('#search').trigger('focus');
 
   $('#recipeList').on('click', 'li', function () {
     const originalIndex = $(this).data('original-index');
